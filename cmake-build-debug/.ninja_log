@@ -1,0 +1,49 @@
+# ninja log v6
+1	110	7536395748396728	build.ninja	e880a29acae4daca
+265	2499	7536394586199936	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	1978f81ff59e2d4f
+3	216	7536394583574248	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	5e64b98e93ed1a36
+219	263	7536394585729518	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+2499	3546	7536394608543357	DataSetGrey_Serial.exe	1c212f3f710fe93b
+219	263	7536394585729518	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+5	258	7536395815423304	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+263	385	7536395818548579	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+263	385	7536395818548579	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+263	385	7536395818548579	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+388	3391	7536395819250714	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+3392	5642	7536395849293731	DataSetGrey_Serial.exe	426c9419a84bc87b
+3	217	7536396034645337	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+220	287	7536396036811781	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+220	287	7536396036811781	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+220	287	7536396036811781	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+290	2576	7536396037511259	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+2577	3737	7536396060383238	DataSetGrey_Serial.exe	426c9419a84bc87b
+5	217	7536396719243222	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+222	262	7536396721429958	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+222	262	7536396721429958	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+222	262	7536396721429958	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+264	2461	7536396721851918	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+2461	3576	7536396743821079	DataSetGrey_Serial.exe	426c9419a84bc87b
+5	225	7536400045121145	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+229	269	7536400047362889	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+229	269	7536400047362889	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+229	269	7536400047362889	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+273	2511	7536400047800821	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+2511	3576	7536400070179865	DataSetGrey_Serial.exe	426c9419a84bc87b
+5	207	7536402488854140	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+208	248	7536402490892573	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+208	248	7536402490892573	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+208	248	7536402490892573	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+251	2368	7536402491315677	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+2369	3473	7536402512495624	DataSetGrey_Serial.exe	426c9419a84bc87b
+4	527	7536412178524508	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+528	585	7536412183763220	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+528	585	7536412183763220	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+528	585	7536412183763220	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+589	3335	7536412184379898	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+3335	4459	7536412211834294	DataSetGrey_Serial.exe	426c9419a84bc87b
+6	225	7536412715875407	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.ddi	e00be574012a162d
+228	282	7536412718084318	CMakeFiles/DataSetGrey_Serial.dir/CXX.dd	d3f813c23f27f720
+228	282	7536412718084318	C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-debug/CMakeFiles/DataSetGrey_Serial.dir/CXXModules.json	d3f813c23f27f720
+228	282	7536412718084318	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj.modmap	d3f813c23f27f720
+285	2588	7536412718663001	CMakeFiles/DataSetGrey_Serial.dir/main.cpp.obj	8fa7b5025319cf18
+2588	3650	7536412741689240	DataSetGrey_Serial.exe	426c9419a84bc87b

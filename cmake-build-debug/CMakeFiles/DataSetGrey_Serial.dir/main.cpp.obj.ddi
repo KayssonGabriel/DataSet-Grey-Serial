@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\DataSetGrey_Serial.dir\\main.cpp.obj",
+            "outputs": [
+                "C:\\Users\\kayss\\OneDrive\\Documentos\\6 periodo\\Programacao Paralela\\src\\DataSetGrey Serial\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\DataSetGrey_Serial.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

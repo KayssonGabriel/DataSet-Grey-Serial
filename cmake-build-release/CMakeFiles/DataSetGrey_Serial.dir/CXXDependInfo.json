@@ -1,0 +1,21 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-release",
+	"dir-cur-src" : "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial",
+	"dir-top-bld" : "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-release",
+	"dir-top-src" : "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\kayss\\vcpkg\\installed\\x64-windows\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/cmake-build-release/CMakeFiles/DataSetGrey_Serial.dir"
+}
