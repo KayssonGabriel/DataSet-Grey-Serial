@@ -7,9 +7,6 @@ project(DataSetGrey_Serial)
 # Definir o padrão C++20
 set(CMAKE_CXX_STANDARD 20)
 
-# Defina o caminho para o vcpkg caso você ainda não tenha integrado o vcpkg ao CLion (se já fez isso no CLion, pode pular esta linha)
-set(CMAKE_TOOLCHAIN_FILE "C:/Users/kayss/vcpkg/scripts/buildsystems/vcpkg.cmake")
-
 # Adicionar o arquivo fonte principal
 add_executable(DataSetGrey_Serial main.cpp)
 

@@ -8,10 +8,6 @@
 
 namespace fs = std::filesystem;
 
-// Definir o caminho do arquivo de imagem aqui (não o diretório)
-const std::string image_path =
-    "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/Imagens/IMAGEM.jpg";
-
 // Função para converter uma imagem para tons de cinza
 void convertToGrayscale(std::vector<std::vector<std::vector<unsigned char>>>& image)
 {
@@ -21,9 +17,9 @@ void convertToGrayscale(std::vector<std::vector<std::vector<unsigned char>>>& im
     {
         for (int j = 0; j < cols; ++j)
         {
-            unsigned char blue = image[i][j][0];
+            unsigned char red = image[i][j][0];
             unsigned char green = image[i][j][1];
-            unsigned char red = image[i][j][2];
+            unsigned char blue = image[i][j][2];
 
             unsigned char gray = static_cast<unsigned char>(red * 0.298 + green * 0.587 + blue * 0.114);
 
@@ -75,9 +71,9 @@ bool readJPEG(const std::string& filename, std::vector<std::vector<std::vector<u
         jpeg_read_scanlines(&cinfo, &row_pointer, 1);
         for (int col = 0; col < cols; ++col)
         {
-            image[row][col][0] = row_pointer[col * channels]; // Blue
-            image[row][col][1] = row_pointer[col * channels + 1]; // Green
-            image[row][col][2] = row_pointer[col * channels + 2]; // Red
+            image[row][col][0] = row_pointer[col * channels];
+            image[row][col][1] = row_pointer[col * channels + 1];
+            image[row][col][2] = row_pointer[col * channels + 2];
         }
     }
 
@@ -121,9 +117,9 @@ void saveJPEG(const std::string& filename, const std::vector<std::vector<std::ve
         int row = cinfo.next_scanline;
         for (int col = 0; col < cols; ++col)
         {
-            row_pointer[col * 3] = image[row][col][0]; // Blue
-            row_pointer[col * 3 + 1] = image[row][col][1]; // Green
-            row_pointer[col * 3 + 2] = image[row][col][2]; // Red
+            row_pointer[col * 3] = image[row][col][0];
+            row_pointer[col * 3 + 1] = image[row][col][1];
+            row_pointer[col * 3 + 2] = image[row][col][2];
         }
         jpeg_write_scanlines(&cinfo, &row_pointer, 1);
     }
@@ -134,8 +130,10 @@ void saveJPEG(const std::string& filename, const std::vector<std::vector<std::ve
     fclose(outfile);
 }
 
-int main()
+int main(int argc, char* argv[])
 {
+    const std::string image_path = argc > 1 ? argv[1] : "Imagens/IMAGEM.jpg";
+    const fs::path output_root = argc > 2 ? argv[2] : "Imagens";
     auto start_time = std::chrono::high_resolution_clock::now();
 
     // Ler a imagem original
@@ -160,9 +158,7 @@ int main()
         auto start_interval_time = std::chrono::high_resolution_clock::now();
 
         // Criar diretório de saída
-        std::string output_directory =
-            "C:/Users/kayss/OneDrive/Documentos/6 periodo/Programacao Paralela/src/DataSetGrey Serial/Imagens/out_" +
-            std::to_string(quantity);
+        const fs::path output_directory = output_root / ("out_" + std::to_string(quantity));
         try
         {
             fs::create_directories(output_directory);
@@ -179,8 +175,8 @@ int main()
             std::vector<std::vector<std::vector<unsigned char>>> image_copy = image; // Criar uma cópia da imagem
             convertToGrayscale(image_copy); // Converter para tons de cinza
 
-            std::string output_path = output_directory + "/IMAGEM_" + std::to_string(i + 1) + "_converted.jpg";
-            saveJPEG(output_path, image_copy, rows, cols);
+            const fs::path output_path = output_directory / ("IMAGEM_" + std::to_string(i + 1) + "_converted.jpg");
+            saveJPEG(output_path.string(), image_copy, rows, cols);
         }
 
         auto end_interval_time = std::chrono::high_resolution_clock::now();
